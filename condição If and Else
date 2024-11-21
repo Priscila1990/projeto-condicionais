@@ -1,0 +1,23 @@
+package projetocondicionais;
+import java.util.Scanner;
+public class projetocondicionais1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ Scanner scan= new Scanner(System.in);
+int numero1,numero2;
+System.out.println("digite um numero inteiro");
+numero1=scan.nextInt();
+System.out.println("digite o segundo numero inteiro");
+numero2=scan.nextInt();
+if(numero1>numero2) {
+	System.out.println("O numero1 é maoir");
+}else if(numero1<numero2) {
+	System.out.println("O numero2 é maior");
+}else {
+	System.out.println("Os numeros são iguais");
+}
+
+	}
+
+}
